@@ -2,34 +2,47 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Get up and running in **less than 10 minutes!**
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
+## What you'll need
 
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+  - When installing Node.js, we recommended to check all checkboxes related to dependencies.
+- Basic Javascript and NodeJS knowledge.
 
-## Generate a new site
+## Generate a new project
 
-Generate a new Docusaurus site using the **classic template**.
+Generate a new Discord bot using the **create-discord-bot CLI tool**.
 
-The classic template will automatically be added to your project after you run the command:
+It will be automatically generated when you run the command:
 
 ```bash
-npm init docusaurus@latest my-website classic
+npx @flzyy/create-discord-bot
 ```
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+This should ask you a few questions, just answer all of them and we can proceed.
+
+```bash
+? Where would you like to create the discord bot ? 
+# This is where you want to put the files for your Discord bot. (./ by default)
+
+? What is the name of your bot ?
+# Doesn't really matter, but it's the name included in package.json.
+
+? What language do you want to use ? #(Use arrow keys)
+❯ Typescript # Recommended, similar to Javascript but it gives you type safety and intellisense.
+❯ Javascript # Default Javascript.
+
+? Do you want to enable ESLint ? #(y/n)
+# Recommended, points out errors and bad practices in your code. 
+
+? Do you want to enable Prettier ? #(y/n)
+# Recommended, formats your code and makes it generally more readable.
+```
 
 ## Start your site
 
