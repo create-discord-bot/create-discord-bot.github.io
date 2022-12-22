@@ -77,6 +77,10 @@ const config = {
             label: 'GitHub',
             href: 'https://github.com/FLzyy/create-discord-bot',
           },
+          {
+            label: 'Website Inspiration',
+            href: 'https://create-react-app.dev/'
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} create-discord-bot, Inc. Built with Docusaurus.`,
       },

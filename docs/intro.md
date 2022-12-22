@@ -19,7 +19,7 @@ Generate a new Discord bot using the **create-discord-bot CLI tool**.
 It will be automatically generated when you run the command:
 
 ```bash
-npx @flzyy/create-discord-bot
+npm init @flzyy/discord-bot@latest
 ```
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.

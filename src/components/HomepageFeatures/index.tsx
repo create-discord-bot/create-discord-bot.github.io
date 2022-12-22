@@ -59,7 +59,7 @@ export default function HomepageFeatures(): JSX.Element {
 	return (
 		<section className={styles.features}>
 			<div className="container">
-				<div className="row">
+				<div className={clsx(styles.featuresRow, "row")}>
 					{FeatureList.map((props, idx) => (
 						// rome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						<Feature key={idx} {...props} />
