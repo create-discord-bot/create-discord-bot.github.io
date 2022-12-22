@@ -37,6 +37,10 @@ This should ask you a few questions, just answer all of them and we can proceed.
 ❯ Typescript # Recommended, similar to Javascript but it gives you type safety and intellisense.
 ❯ Javascript # Default Javascript.
 
+? What type of logging do you want to use ? #(Use arrow keys)
+❯ Default # Default console.log/error/info/warn
+❯ Pino # Recommended: low overhead, nicely formatted.
+
 ? Do you want to enable ESLint ? #(y/n)
 # Recommended, points out errors and bad practices in your code. 
 
@@ -44,17 +48,32 @@ This should ask you a few questions, just answer all of them and we can proceed.
 # Recommended, formats your code and makes it generally more readable.
 ```
 
-## Start your site
+## Complete the Setup
 
-Run the development server:
+First <code>cd</code> into the folder you created (Not needed if you created it in the root directory).
 
+Then, run this command to install all of your dependencies.
 ```bash
-cd my-website
-npm run start
+  npm install # or `npm i`
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+:::tip Important!
+If you haven't already **[created a discord bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)**, follow the linked guide and get your Bot's Token and Client ID.
+:::
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Once you've done that open the newly created <code>.env</code> file, in it you should see the following:
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+```text
+DISCORD_TOKEN="YOUR TOKEN HERE"
+CLIENT_ID="YOUR CLIENT ID HERE"
+```
+
+Paste your Token and Client ID accordingly.
+
+Now, run the following command:
+
+```bash
+npm start
+```
+
+And you should now see that your bot is online! You might also see that it has the command <code>/ping</code>, run it and if it replies your bot is now properly working!
