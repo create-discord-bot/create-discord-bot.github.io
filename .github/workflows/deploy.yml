@@ -17,8 +17,11 @@ on:
       - 'static/img/'
       - '**.svg'
       - '**.gif'
+    paths-ignore:
+      - 'README.md'
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
