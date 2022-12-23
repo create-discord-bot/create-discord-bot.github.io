@@ -44,8 +44,8 @@ contains your bot's files.
 ### index.(js/ts)
 This is your project's main entry point, it contains the code that initializes all your command and event files.
 
-### register.(js/ts)
-This is the file used by your project to register the commands to discord's 'backend', so that any new commands will show up and can be used.
+### register(gl/gu or both).(js/ts)
+This is the file used by your project to register the commands to discord's 'backend', so that any new commands will show up and can be used. (GL means Global, GU means Guild only. [Learn more](deployment.md))
 
 ### commands/
 This folder contains all of the commands for your bot.

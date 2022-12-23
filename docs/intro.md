@@ -41,6 +41,10 @@ This should ask you a few questions, just answer all of them and we can proceed.
 ❯ Default # Default console.log/error/info/warn
 ❯ Pino # Recommended: low overhead, nicely formatted.
 
+? What deployment method(s) do you want to use ? #(Press space to select, a to toggle, i to invert selection and enter to proceed)
+◉ Global # Will add global command deployment.
+◯ Guild # Will add guild-only command deployment.
+
 ? Do you want to enable ESLint ? #(y/n)
 # Recommended, points out errors and bad practices in your code. 
 
@@ -66,9 +70,11 @@ Once you've done that open the newly created <code>.env</code> file, in it you s
 ```text
 DISCORD_TOKEN="YOUR TOKEN HERE"
 CLIENT_ID="YOUR CLIENT ID HERE"
+GUILD_ID="YOUR GUILD ID HERE"
 ```
 
-Paste your Token and Client ID accordingly.
+Paste your Token and Client ID accordingly. And you should only need to fill in <code>GUILD_ID</code> if you
+want to use [guild only deployments](basics/deployment.md).
 
 Now, run the following command:
 
