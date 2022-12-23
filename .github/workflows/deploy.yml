@@ -3,22 +3,12 @@ name: Deploy to GitHub Pages
 on:
   push:
     paths:
-      - '**.js'
-      - '**.config.js'
-      - 'tsconfig.json'
-      - '**.tsx'
-      - '**.css'
-      - '**.module.css'
-      - 'src/'
-      - 'docs/'
-      - '**.md'
-      - '**.mdx'
-      - 'static/'
-      - 'static/img/'
+      - '*.js'
+      - '*.config.js'
+      - 'src/**'
+      - 'docs/**'
       - '**.svg'
       - '**.gif'
-    paths-ignore:
-      - 'README.md'
     branches:
       - main
   workflow_dispatch:
