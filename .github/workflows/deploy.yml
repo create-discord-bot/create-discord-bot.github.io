@@ -7,8 +7,7 @@ on:
       - '*.config.js'
       - 'src/**'
       - 'docs/**'
-      - '**.svg'
-      - '**.gif'
+      - 'static/**'
     branches:
       - main
   workflow_dispatch:
