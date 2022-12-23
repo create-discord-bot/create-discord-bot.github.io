@@ -63,7 +63,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/FLzyy/create-discord-bot/tree/gh-pages',
+            href: 'https://github.com/FLzyy/create-discord-bot/create-discord-bot',
             label: 'GitHub',
             position: 'right',
           },
@@ -74,7 +74,7 @@ const config = {
         links: [
           {
             label: 'GitHub',
-            href: 'https://github.com/FLzyy/create-discord-bot',
+            href: 'https://github.com/create-discord-bot/create-discord-bot',
           },
           {
             label: 'Website Inspiration',
