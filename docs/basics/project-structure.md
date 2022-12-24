@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+toc_min_heading_level: 2
+toc_max_heading_level: 4
 ---
 
 # Project Structure
@@ -68,6 +70,14 @@ Basic starter event, is called once the bot is online, currently logs to the con
 #### index.d.ts
 File that contains that contains the types for extending discord.js module's Client object to include a commands
 property.
+
+### utils
+**This folder is only created if you're using Pino**. Contains utilities/helpers that will be used by most
+or all main files.
+
+#### logger.(js/ts)
+
+Imports logger from Pino and exports it for use by other files.
 
 ## .env
 This file contains all details that your bot needs to start up. (Token and Client ID)

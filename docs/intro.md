@@ -24,14 +24,11 @@ npm init @flzyy/discord-bot@latest
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-This should ask you a few questions, just answer all of them and we can proceed.
+This should ask you a few questions, just answer all of them and we can proceed. You can also add [command line arguments](basics/command-line-arguments) to skip some questions or be able to skip them all.
 
 ```bash
 ? Where would you like to create the discord bot ? 
 # This is where you want to put the files for your Discord bot. (./ by default)
-
-? What is the name of your bot ?
-# Doesn't really matter, but it's the name included in package.json.
 
 ? What language do you want to use ? #(Use arrow keys)
 ❯ Typescript # Recommended, similar to Javascript but it gives you type safety and intellisense.
@@ -74,7 +71,7 @@ GUILD_ID="YOUR GUILD ID HERE"
 ```
 
 Paste your Token and Client ID accordingly. And you should only need to fill in <code>GUILD_ID</code> if you
-want to use [guild only deployments](basics/deployment.md).
+want to use [guild only deployments](options/deployment.md).
 
 Now, run the following command:
 

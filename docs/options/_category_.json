@@ -1,0 +1,8 @@
+{
+  "label": "Options",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "General information about the options in create-discord-bot."
+  }
+}
