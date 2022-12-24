@@ -49,8 +49,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: 'create-discord-bot, discord-bot, discord bot, discordjs, discord.js, typescript, javascript, scaffolder, templater, discord, nodejs, eslint, prettier, pino, console'}
+      ],
       navbar: {
         title: 'create-discord-bot',
+        hideOnScroll: true,
         logo: {
           alt: 'create-discord-bot Logo',
           src: 'img/favicon.svg',
@@ -81,12 +85,13 @@ const config = {
             href: 'https://create-react-app.dev/'
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} create-discord-bot, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} create-discord-bot, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      image: 'img/og.png'
     }),
 };
 

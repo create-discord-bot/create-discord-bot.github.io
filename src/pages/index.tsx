@@ -4,7 +4,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Logo from '@site/static/img/favicon.svg'
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import CodeBlock from '@theme/CodeBlock'
 
 import styles from './index.module.css';
@@ -14,13 +13,13 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Logo className={styles.logo} />
+        <Logo className={clsx(styles.logo, '')} />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className={clsx("button button--lg button--primary", styles.button)}
-            to="/docs/intro">
+            className={"button button--lg button--outline button--primary"}
+            to="/docs">
             Get Started
           </Link>
         </div>
@@ -36,7 +35,6 @@ export default function Home(): JSX.Element {
       description="Bootstrap your discord bot with blazingly fast speeds.">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
         <figure className={styles.adder}>
           <div>
                 <h2>Get started in seconds</h2>
