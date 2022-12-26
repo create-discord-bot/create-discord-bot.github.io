@@ -46,6 +46,19 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      // @ts-ignore
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        hashed: true,
+        indexBlog: false,
+      }),
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -67,7 +80,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/FLzyy/create-discord-bot/create-discord-bot',
+            href: 'https://github.com/create-discord-bot/create-discord-bot',
             label: 'GitHub',
             position: 'right',
           },

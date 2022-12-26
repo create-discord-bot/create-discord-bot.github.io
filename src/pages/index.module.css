@@ -76,4 +76,5 @@
   height: 20rem;
   aspect-ratio: 16/9;
   border-radius: 0.2rem;
+  object-fit: contain;
 }
