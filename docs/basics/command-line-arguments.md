@@ -38,7 +38,7 @@ This option will the set the language used in your bot and skip the prompt for d
 
 - `lang`
 - `l`
-  
+
 ### Example Usage
 
 ```bash
@@ -70,10 +70,12 @@ npm init @flzyy/discord-bot@latest --log=pino
 This option will set the deployment methods that are added and skip the prompt for it in the CLI tool.
 
 ### Options
+
 - `registergu`
 - `registergl`
 
 ### Aliases
+
 - `de`
 - `deploy`
 - `dep`
@@ -90,10 +92,12 @@ npm init @flzyy/discord-bot@latest --de=registergu,registergl
 This option will enable or disable Prettier and skip the prompt for it in the CLI tool.
 
 ### Options
+
 - `true`
 - `false`
 
 ### Aliases
+
 - `prt`
 - `pr`
 - `p`
@@ -109,10 +113,12 @@ npm init @flzyy/discord-bot@latest --p=true
 This option will enable or disable ESLint and skip the prompt for it in the CLI tool.
 
 ### Options
+
 - `true`
 - `false`
 
 ### Aliases
+
 - `esl`
 - `es`
 - `e`
@@ -121,4 +127,28 @@ This option will enable or disable ESLint and skip the prompt for it in the CLI 
 
 ```bash
 npm init @flzyy/discord-bot@latest --e=true
+```
+
+## --packageManager
+
+This option will set the package manager used by the CLI tool at the end to install the dependencies you can
+also set this to "no" if don't want to install the dependencies automatically or don't set it at all to
+receive the choices in the CLI tool.
+
+### Options
+
+- `npm`
+- `pnpm`
+- `yarn`
+- `no`
+
+### Aliases
+
+- `pgm`
+- `pm`
+
+### Example Usage
+
+```bash
+npm init @flzyy/discord-bot@latest --pm=npm
 ```

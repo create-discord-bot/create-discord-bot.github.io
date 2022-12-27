@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1 
+sidebar_position: 1
 slug: /
 ---
 
@@ -28,7 +28,7 @@ You can type this command into Command Prompt, Powershell, Terminal, or any othe
 This should ask you a few questions, just answer all of them and we can proceed. You can also add [command line arguments](basics/command-line-arguments) to skip some questions or be able to skip them all.
 
 ```bash
-? Where would you like to create the discord bot ? 
+? Where would you like to create the discord bot ?
 # This is where you want to put the files for your Discord bot. (./ by default)
 
 ? What language do you want to use ? #(Use arrow keys)
@@ -44,19 +44,28 @@ This should ask you a few questions, just answer all of them and we can proceed.
 ◯ Guild # Will add guild-only command deployment.
 
 ? Do you want to enable ESLint ? #(y/n)
-# Recommended, points out errors and bad practices in your code. 
+# Recommended, points out errors and bad practices in your code.
 
 ? Do you want to enable Prettier ? #(y/n)
 # Recommended, formats your code and makes it generally more readable.
+
+# ...
+
+? Would you like to install dependencies now ?
+❯ npm
+❯ yarn
+❯ pnpm
+❯ No
 ```
 
 ## Complete the Setup
 
 First <code>cd</code> into the folder you created (Not needed if you created it in the root directory).
 
-Then, run this command to install all of your dependencies.
+If you chose not to install dependencies now in the CLI tool, run the following command to install dependencies:
+
 ```bash
-  npm install # or `npm i`
+npm install # or pnpm/yarn
 ```
 
 :::tip Important!
