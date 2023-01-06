@@ -71,8 +71,8 @@ This option will set the deployment methods that are added and skip the prompt f
 
 ### Options
 
-- `registergu`
-- `registergl`
+- `guild`
+- `global`
 
 ### Aliases
 
