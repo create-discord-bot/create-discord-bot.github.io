@@ -3,25 +3,22 @@ sidebar_position: 3
 ---
 
 # Deployment
+
 Deployment/registering commands is in layman's terms; publishing your commands over to Discord's servers.
 Deploying commands are required as if not done any metadata about the command, such as command name, description, options, etc. will not update nor new commands will appear as well.
 
-:::caution 
+:::caution
 Discord rate limits the amount of deployments you can have per day to 200.
 :::
 
 ## Global Deployment
-Any files in `commands/` that end with `.(js/ts)` will be deployed to all servers. It will be automatically
-executed when the following command is called.
+
+Any files in `commands/` that end with `.(js/ts)` will be deployed to all servers.
+
+You can call it by running the following command:
 
 ```bash
-npm start
-```
-
-However you can also call it yourself by running the following command:
-
-```bash
-npm run registergl
+npm run deploy:global
 ```
 
 :::tip
@@ -29,17 +26,13 @@ You can remove the `GUILD_ID` portion of your .env file if you're only going to 
 :::
 
 ## Guild Deployment
+
 Any files in `commands/` that end with `.gu.(js/ts)` will be deployed to the guild id written in your .env file.
-It will be automatically executed when the following command is called.
+
+You can call it by running the following command:
 
 ```bash
-npm start
-```
-
-However you can also call it yourself by running the following command:
-
-```bash
-npm run registergu
+npm run deploy:guild
 ```
 
 :::tip
@@ -55,4 +48,4 @@ You can get a server's guild id by right-clicking on the server's icon and click
 > You may wish to have a separate application and token in the Discord Dev Portal for your dev application, to
 > avoid duplication between your guild-based commands and the global deployment.
 >
-> *[discordjs.guide](https://discordjs.guide/creating-your-bot/command-deployment.html#where-to-deploy)*
+> _[discordjs.guide](https://discordjs.guide/creating-your-bot/command-deployment.html#where-to-deploy)_
