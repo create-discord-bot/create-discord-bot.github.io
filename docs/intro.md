@@ -10,7 +10,7 @@ Get up and running in **less than 10 minutes!**
 ## What you'll need
 
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, we recommended to check all checkboxes related to dependencies.
+  - When installing Node.js, we recommended checking all checkboxes related to dependencies.
 - Basic Javascript and NodeJS knowledge.
 
 ## Generate a new project
@@ -25,14 +25,14 @@ npm init @flzyy/discord-bot@latest
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-This should ask you a few questions, just answer all of them and we can proceed. You can also add [command line arguments](basics/command-line-arguments) to skip some questions or be able to skip them all.
+It should ask you a few questions; answer them, and we can proceed. You can also add [command line arguments](basics/command-line arguments) to skip some questions or be able to skip them all.
 
 ```bash
 ? Where would you like to create the discord bot ?
 # This is where you want to put the files for your Discord bot. (./ by default)
 
 ? What language do you want to use ? #(Use arrow keys)
-❯ Typescript # Recommended, similar to Javascript but it gives you type safety and intellisense.
+❯ Typescript # Recommended, similar to Javascript, gives you type safety and intellisense.
 ❯ Javascript # Default Javascript.
 
 ? What type of logging do you want to use ? #(Use arrow keys)
@@ -60,7 +60,7 @@ This should ask you a few questions, just answer all of them and we can proceed.
 
 ## Complete the Setup
 
-First <code>cd</code> into the folder you created (Not needed if you created it in the root directory).
+First, <code>cd</code> into the folder you created (Not needed if you made it in the root directory).
 
 If you chose not to install dependencies now in the CLI tool, run the following command to install dependencies:
 
@@ -72,7 +72,7 @@ npm install # or pnpm/yarn
 If you haven't already **[created a discord bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)**, follow the linked guide and get your Bot's Token and Client ID.
 :::
 
-Once you've done that open the newly created <code>.env</code> file, in it you should see the following:
+Once you've done that, open the newly created <code>.env</code> file; in it, you should see the following:
 
 ```text
 DISCORD_TOKEN="YOUR TOKEN HERE"
@@ -89,4 +89,4 @@ Now, run the following command:
 npm start
 ```
 
-And you should now see that your bot is online! You might also see that it has the command <code>/ping</code>, run it and if it replies your bot is now properly working!
+And you should now see that your bot is online! You might also know that it has the command <code>/ping</code>; run it, and if it replies, your bot is working correctly!

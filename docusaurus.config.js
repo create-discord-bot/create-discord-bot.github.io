@@ -1,47 +1,46 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'create-discord-bot',
-  tagline: 'Bootstrap your discord bot with blazingly fast speeds.',
-  url: 'https://create-discord-bot.github.io',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.svg',
-  organizationName: 'create-discord-bot',
-  projectName: 'create-discord-bot.github.io',
+  title: "create-discord-bot",
+  tagline: "Bootstrap your discord bot with blazingly fast speeds.",
+  url: "https://create-discord-bot.github.io",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.svg",
+  organizationName: "create-discord-bot",
+  projectName: "create-discord-bot.github.io",
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/create-discord-bot/create-discord-bot.github.io/tree/main/docs",
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
         sitemap: {
-          changefreq: 'weekly',
+          changefreq: "weekly",
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
         },
-        
       }),
     ],
   ],
@@ -63,40 +62,44 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'keywords', content: 'create-discord-bot, discord-bot, discord bot, discordjs, discord.js, typescript, javascript, scaffolder, templater, discord, nodejs, eslint, prettier, pino, console'}
+        {
+          name: "keywords",
+          content:
+            "create-discord-bot, discord-bot, discord bot, discordjs, discord.js, typescript, javascript, scaffolder, templater, discord, nodejs, eslint, prettier, pino, console",
+        },
       ],
       navbar: {
-        title: 'create-discord-bot',
+        title: "create-discord-bot",
         hideOnScroll: true,
         logo: {
-          alt: 'create-discord-bot Logo',
-          src: 'img/favicon.svg',
+          alt: "create-discord-bot Logo",
+          src: "img/favicon.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Documentation',
+            type: "doc",
+            docId: "intro",
+            position: "right",
+            label: "Documentation",
           },
           {
-            href: 'https://github.com/create-discord-bot/create-discord-bot',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/create-discord-bot/create-discord-bot",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'light',
+        style: "light",
         links: [
           {
-            label: 'GitHub',
-            href: 'https://github.com/create-discord-bot/create-discord-bot',
+            label: "GitHub",
+            href: "https://github.com/create-discord-bot/create-discord-bot",
           },
           {
-            label: 'Website Inspiration',
-            href: 'https://create-react-app.dev/'
-          }
+            label: "Website Inspiration",
+            href: "https://create-react-app.dev/",
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} create-discord-bot, Built with Docusaurus.`,
       },
@@ -104,7 +107,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      image: 'img/og.png'
+      image: "img/og.png",
     }),
 };
 

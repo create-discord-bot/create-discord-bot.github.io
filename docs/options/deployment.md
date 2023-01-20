@@ -4,8 +4,7 @@ sidebar_position: 3
 
 # Deployment
 
-Deployment/registering commands is in layman's terms; publishing your commands over to Discord's servers.
-Deploying commands are required as if not done any metadata about the command, such as command name, description, options, etc. will not update nor new commands will appear as well.
+Deployment/registering commands is, in layman's terms, publishing your commands over to Discord's servers. Deploying commands is required; if not done, any metadata about the command, such as command name, description, options, etcetera, will not update, nor will new commands appear.
 
 :::caution
 Discord rate limits the amount of deployments you can have per day to 200.
