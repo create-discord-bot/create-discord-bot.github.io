@@ -52,7 +52,7 @@ It is your project's main entry point; it contains the code that initializes all
 
 ### register(gl/gu or both).(js/ts)
 
-It is the file used by your project to register the commands to discord's 'backend', so any new commands will show up and can be used. (GL means Global, GU means Guild only. [Learn more](../options/deployment.MD))
+It is the file used by your project to register the commands to discord's 'backend', so any new commands will show up and can be used. (GL means Global, GU means Guild only. [Learn more](../options/deployment.md))
 
 ### commands/
 
