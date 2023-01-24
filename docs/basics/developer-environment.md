@@ -27,8 +27,8 @@ npm start
 | name            | description                                                                            | requirement                  |
 | --------------- | -------------------------------------------------------------------------------------- | ---------------------------- |
 | `start`         | uses nodemon/TSX to start your Discord bot with live reloading.                        | None                         |
-| `deploy:global` | Deploys your Discord bot's commands globally. [Learn more](../options/deployment.MD)   | Have global deployment added |
-| `deploy:guild`  | Deploys your Discord bot's commands in a guild. [Learn more](../options/deployment.MD) | Have guild deployment added  |
+| `deploy:global` | Deploys your Discord bot's commands globally. [Learn more](../options/deployment.md)   | Have global deployment added |
+| `deploy:guild`  | Deploys your Discord bot's commands in a guild. [Learn more](../options/deployment.md) | Have guild deployment added  |
 
 ## ENV
 
