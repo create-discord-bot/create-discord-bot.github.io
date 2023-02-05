@@ -45,19 +45,6 @@ const config = {
     ],
   ],
 
-  themes: [
-    [
-      // @ts-ignore
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      // @ts-ignore
-      ({
-        hashed: true,
-        indexBlog: false,
-      }),
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -108,6 +95,11 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       image: "img/og.png",
+      algolia: {
+        appId: "3FCZZGXI8F",
+        apiKey: "b5043ee0718746a08b3ed77b9b1e11bd",
+        indexName: "create-discord-botio",
+      },
     }),
 };
 
