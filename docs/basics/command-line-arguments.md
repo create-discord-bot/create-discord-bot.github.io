@@ -97,7 +97,7 @@ npm init @flzyy/discord-bot@latest --e=true
 ## --packageManager, --g
 
 This option will set the package manager used by the CLI tool at the end to install the dependencies you can
-also, set this to "no" if you don't want to install the dependencies automatically or don't set it at all to
+also, set this to `n` if you don't want to install the dependencies automatically or don't set it at all to
 receive the choices in the CLI tool.
 
 ### Options
@@ -105,7 +105,7 @@ receive the choices in the CLI tool.
 - `npm`
 - `pnpm`
 - `yarn`
-- `no`
+- `n`
 
 ### Example Usage
 
