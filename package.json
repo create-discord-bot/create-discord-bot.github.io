@@ -15,6 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@algolia/client-search": ">= 4.9.1 < 6",
     "@docusaurus/core": "^2.3.1",
     "@docusaurus/plugin-sitemap": "^2.3.1",
     "@docusaurus/preset-classic": "^2.3.1",
