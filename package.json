@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/create-discord-bot/create-discord-bot.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "FLzyy <flzyy72@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/create-discord-bot/create-discord-bot/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://create-discord-bot.github.io",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
